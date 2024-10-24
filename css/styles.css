@@ -1,0 +1,133 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header1 {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background: yellow;
+}
+.header1 img {
+  width: 20px;
+}
+.header1 .nav {
+  display: inline-flex;
+}
+.header1 .nav li {
+  list-style: none;
+}
+.header1 .nav li > a {
+  text-decoration: none;
+  color: black;
+  padding-inline: 15px;
+}
+.header1 .circles {
+  display: inline-flex;
+}
+.header1 .circles button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  background: black;
+}
+
+.header2 {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  background: black;
+}
+.header2 h1 {
+  color: yellow;
+}
+.header2 p {
+  color: white;
+}
+.header2 input {
+  width: 400px;
+  background: black;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.header2 input ::-moz-placeholder {
+  color: white;
+}
+.header2 input ::placeholder {
+  color: white;
+}
+
+.main {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: url("/images/bg.jpg");
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+}
+.main .lozung1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+}
+.main .lozung1 :last-child {
+  margin-top: -40px;
+}
+.main h2 {
+  font-size: 50px;
+  text-decoration: underline;
+  color: white;
+}
+.main h3 {
+  font-size: 30px;
+  color: white;
+}
+.main .buttons1 {
+  margin-bottom: 0;
+}
+.main .buttons1 button {
+  width: 50px;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.main2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: black;
+}
+.main2 > .lozung2 {
+  margin-top: 50px;
+  margin-bottom: 70px;
+  border: 2px solid darkgrey;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  display: flex;
+  padding: 20px;
+  width: 400px;
+  justify-content: center;
+}
+.main2 .btn2 button {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin-inline: 50px;
+}
+.main2 .why {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+.main2 .why p {
+  margin-inline: 38px;
+}/*# sourceMappingURL=styles.css.map */
